@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+
+body{
+    background-image: url("background-pattern.png");
+    background-size: contain;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #22223b;
+    letter-spacing: 3px;
+    margin: 20px;
+}
+.logo:hover{
+    cursor: pointer;
+
+}
+.nav__links{
+    font-family: 'Poppins', sans-serif ;
+    font-size: 17px;
+    list-style: none;
+    font-weight: 300;
+}
+.nav__links li a{
+    color: #4a4e69;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all .2s;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px ;
+}
+.nav__links li a:hover{
+    color: lightgray
+    ;
+}
+.nav__links a:hover{
+    cursor: pointer;
+    color:#22223b
+}
+#camera-image{
+    width: 700px;
+    height: 400px;
+    margin-left: 250px;
+}
+.pictures-wrapper{
+    margin-top: 100px;
+}
+.heading{
+    font-family: 'Caveat', cursive;
+    font-size: 84px;
+}
+.bar{
+    width: 400px;
+    background-color: #FFBE0B;
+    height: 10px;
+    border-radius: 40px;
+}
+.paragraph{
+    width: 400px;
+    margin-top: 10px;
+}
+#pictures1{
+    height: 300px;
+    width: 150px;
+    border: 0;
+    transition: all 0.5s;
+    margin: 10px;
+    margin-left: 0px;
+}
+#pictures1:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#pictures2{
+    height: 300px;
+    width: 300px;
+    transition: all 0.5s;
+    margin: 10px;
+    margin-left: 10px;
+}
+#pictures2:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#pictures3{
+    height: 300px;
+    width: 150px;
+    transition: all 0.5s;
+    margin: 10px;
+    margin-left: 0px;
+}
+#pictures3:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#pictures4{
+    height: 300px;
+    width: 400px;
+    transition: all 0.5s;
+    margin: 10px;
+    margin-left: 10px;
+}
+#pictures4:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.modal-picture{
+    height: 500px;
+    width: 200px;
+    margin-left: 120px;
+}
